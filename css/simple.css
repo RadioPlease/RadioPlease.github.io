@@ -9,6 +9,10 @@ body {
     background: white;
 }
 
+div {
+    line-height: 0;
+}
+
 a {
     color: #227ce8;
     text-decoration: none;
