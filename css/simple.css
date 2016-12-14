@@ -16,8 +16,30 @@ h1, h2 {
     text-align: center;
 }
 
-li {
+.member img {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px; 
+}
+
+.member li {
     line-height: 1.2em;
+    display: inline-block;
+    height: 100px;
+    width: 100px; 
+}
+
+.shop img {
+  border-radius: 10px;
+  height: 80px;
+  width: 80px; 
+}
+
+.shop li {
+    line-height: 1.2em;
+    display: inline-block;
+    height: 100px;
+    width: 100px; 
 }
 
 div {
