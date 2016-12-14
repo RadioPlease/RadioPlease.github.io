@@ -6,11 +6,41 @@ body {
     max-width: 500px;
     margin: 4em auto 2em auto;
     font-family: 'Inconsolata', monospace;
-    background: white;
+    /* background: white; */
+}
+
+.wrapper {
+  display: flex;
+  display: -webkit-flex;
+
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+}
+
+.wrapfull {
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
+}
+
+.wraphalf {
+  background: pink;
+  flex-basis: 50%;
+  -webkit-flex-basis: 50%;
 }
 
 h1, h2 {
+    width: 100%;
+    height: 100%;
+    line-height: 1.2em;
     text-align: center;
+}
+
+.half {
+    width: 250px;
+}
+
+li {
+    line-height: 1.2em;
 }
 
 div {
