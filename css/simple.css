@@ -42,7 +42,11 @@ h1, h2 {
     height: 180px;
     border-radius: 3px;
     background-color: #C0C0C0;
+}
 
+.calendar iframe{
+    border-radius: 3px;
+    background-color: #C0C0C0;
 }
 
 .mixlr {
