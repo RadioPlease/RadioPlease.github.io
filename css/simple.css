@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:200);
 
 body {
-    max-width: 800px;
+    max-width: 500px;
     margin: 4em auto 2em auto;
     font-family: 'Inconsolata', monospace;
     /* background: white; */
@@ -18,7 +18,7 @@ h1, h2 {
 
 .player {
     background-color: #C0C0C0;
-    text-align: center;
+    margin: 3%;
     border-radius: 3%;
 }
 
@@ -28,23 +28,64 @@ h1, h2 {
     margin-right: 2%;
 }
 
-.member img {
-  border-radius: 50%;
-  height: 80px;
-  width: 80px; 
+.secondbox {
+    margin-bottom: 2%;
+    background-color: #C0C0C0;
 }
 
-.member li {
-    line-height: 1.2em;
+.secondbox div{
+}
+
+.calendar {
+    float: left;
+    width: 40%;
+    height: 180px;
+    border-radius: 3px;
+    background-color: #C0C0C0;
+
+}
+
+.mixlr {
+    border-radius: 3px;
+    background-color: #C0C0C0;
+}
+
+.nob {
+    float: left;
+    width: 54%;
+    height: 180px;
+    border-radius: 3px;
+    background-color: #EEEEEE;
+    text-align: left;
+}
+
+.nob ul {
+    margin: 5px;
+    margin-top: 8px;
+    padding: 0px;
+}
+
+.nob img {
+  border-radius: 50%;
+  border: 3px solid #C0C0C0;
+  margin: 2px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.nob li {
+    margin: 0px;
+    padding: 0px;
     display: inline-block;
-    height: 100px;
-    width: 100px; 
+    height: 33%;
+    width: 30%; 
 }
 
 .shop img {
   border-radius: 10px;
   height: 80px;
-  width: 80px; 
+  width: 80px;
 }
 
 .shop li {
