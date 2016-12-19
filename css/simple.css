@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Inconsolata:200);
 
 body {
-    max-width: 700px;
+    max-width: 500px;
     margin: 4em auto 2em auto;
     font-family: 'Inconsolata', monospace;
 }
@@ -33,13 +33,12 @@ h1, h2 {
 }
 
 .secondbox div{
-
 }
 
 .calendar {
     float: left;
     width: 40%;
-    height: 200px;
+    height: 180px;
     border-radius: 3px;
     background-color: #C0C0C0;
 }
@@ -50,7 +49,6 @@ h1, h2 {
 }
 
 .mixlr {
-    height: 200px;
     border-radius: 3px;
     background-color: #C0C0C0;
 }
@@ -58,34 +56,33 @@ h1, h2 {
 .nob {
     float: left;
     width: 54%;
-    height: 200px;
+    height: 180px;
     border-radius: 3px;
     background-color: #EEEEEE;
     text-align: left;
 }
 
 .nob ul {
-    margin: 0px;
+    margin: 5px;
+    margin-top: 8px;
     padding: 0px;
-    width: 100%;
-    height: 100%;
 }
 
 .nob img {
   border-radius: 50%;
   border: 3px solid #C0C0C0;
-  margin: 0%;
-  padding: 0%;
-  height: auto;
-  width: 85%;
+  margin: 2px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
 }
 
 .nob li {
-    margin: 5px;
+    margin: 0px;
     padding: 0px;
     display: inline-block;
-    height: 45%;
-    width: 28%; 
+    height: 33%;
+    width: 30%; 
 }
 
 .shop img {
