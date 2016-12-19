@@ -80,9 +80,9 @@ h1, h2 {
   padding: 0px;
   height: 100%;
   width: 100%;
-    -webkit-box-shadow: 0 10px 6px -6px #777;
-    -moz-box-shadow: 0 10px 6px -6px #777;
-        box-shadow: 0 10px 6px -6px #777;
+    -webkit-box-shadow: 0 6px 6px -2px #777;
+       -moz-box-shadow: 0 6px 6px -2px #777;
+            box-shadow: 0 6px 6px -2px #777;
 }
 
 .nob li {
@@ -98,9 +98,9 @@ h1, h2 {
 }
 
 .shadow{
-    -webkit-box-shadow: 0 10px 6px -6px #777;
-       -moz-box-shadow: 0 10px 6px -6px #777;
-            box-shadow: 0 10px 6px -6px #777;
+    -webkit-box-shadow: 0 6px 6px -2px #777;
+       -moz-box-shadow: 0 6px 6px -2px #777;
+            box-shadow: 0 6px 6px -2px #777;
 }
 
 div {
