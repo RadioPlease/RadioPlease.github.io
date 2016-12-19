@@ -90,6 +90,10 @@ h1, h2 {
     width: 30%; 
 }
 
+.roundimg {
+    border-radius: 10px; 
+}
+
 div {
     line-height: 0;
 }
