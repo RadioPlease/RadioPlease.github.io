@@ -21,7 +21,7 @@ h1, h2 {
 }
 
 .player {
-    background-color: #C0C0C0;
+    background-color: #B4B4B4;
     margin: 3%;
     border-radius: 3%;
 }
@@ -34,7 +34,7 @@ h1, h2 {
 
 .secondbox {
     margin-bottom: 2%;
-    background-color: #C0C0C0;
+    background-color: #B4B4B4;
 }
 
 .secondbox div{
@@ -45,12 +45,12 @@ h1, h2 {
     width: 40%;
     height: 180px;
     border-radius: 3px;
-    background-color: #C0C0C0;
+    background-color: #B4B4B4;
 }
 
 .calendar iframe{
     border-radius: 3px;
-    background-color: #C0C0C0;
+    background-color: #B4B4B4;
 }
 
 .mixlr {
@@ -80,6 +80,9 @@ h1, h2 {
   padding: 0px;
   height: 100%;
   width: 100%;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+        box-shadow: 0 10px 6px -6px #777;
 }
 
 .nob li {
@@ -92,6 +95,12 @@ h1, h2 {
 
 .roundimg {
     border-radius: 10px; 
+}
+
+.shadow{
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
 }
 
 div {
