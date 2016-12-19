@@ -85,19 +85,6 @@ h1, h2 {
     width: 30%; 
 }
 
-.shop img {
-  border-radius: 10px;
-  height: 80px;
-  width: 80px;
-}
-
-.shop li {
-    line-height: 1.2em;
-    display: inline-block;
-    height: 100px;
-    width: 100px; 
-}
-
 div {
     line-height: 0;
 }
