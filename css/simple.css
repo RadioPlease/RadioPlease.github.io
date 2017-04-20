@@ -4,6 +4,7 @@
 
 body {
     max-width: 480px;
+    background-color: #FFFFFF;    
     margin: 4em auto 2em auto;
     font-family: 'Inconsolata', monospace;
 }
