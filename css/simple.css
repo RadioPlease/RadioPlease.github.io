@@ -41,7 +41,7 @@ h1, h2 {
 }
 
 .calendar {
-    width: 40%;
+    width: 200px;
     height: 180px;
     border-radius: 3px;
     background-color: #B4B4B4;
@@ -59,7 +59,7 @@ h1, h2 {
 
 .nob {
     float: right;
-    width: 54%;
+    width: 220px;
     margin-right: 8px;
     height: 180px;
     border-radius: 3px;
@@ -78,8 +78,8 @@ h1, h2 {
   border: 3px solid #C0C0C0;
   margin: 3%;
   padding: 0px;
-  height: 90%;
-  width: 90%;
+  height: 60px;
+  width: 60px;
     -webkit-box-shadow: 0 6px 6px -2px #777;
        -moz-box-shadow: 0 6px 6px -2px #777;
             box-shadow: 0 6px 6px -2px #777;
