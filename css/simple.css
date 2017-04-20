@@ -59,7 +59,7 @@ h1, h2 {
 }
 
 .nob {
-    float: left;
+    float: right;
     width: 54%;
     height: 180px;
     border-radius: 3px;
