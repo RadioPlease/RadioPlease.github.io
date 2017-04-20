@@ -15,6 +15,10 @@ h1, h2 {
     text-align: center;
 }
 
+img {
+    border: 0px;
+}
+
 .wrapper {
     width : 100%;
     height : auto;
