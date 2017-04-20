@@ -134,3 +134,8 @@ p {
     float: right;
     width: 320px;
 }
+
+#wrap {
+    overflow:hidden;
+}
+
