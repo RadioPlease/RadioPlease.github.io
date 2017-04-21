@@ -1,12 +1,30 @@
 @charset "UTF-8";
 
-@import url(https://fonts.googleapis.com/css?family=Inconsolata:200);
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono:600');
+
+header {
+    margin: auto auto auto auto;
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: small;
+    text-align: right;
+    font-family: 'Overpass Mono', monospace;
+}
+
+footer {
+    margin: auto auto auto auto;
+    margin-left: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: 'Overpass Mono', monospace;
+}
 
 body {
     max-width: 480px;
     background-color: #FFFFFF;    
-    margin: 4em auto 2em auto;
-    font-family: 'Inconsolata', monospace;
+    margin: auto auto auto auto;
+    font-family: 'Overpass Mono', monospace;
 }
 
 h1, h2 {
@@ -32,7 +50,7 @@ img {
 }
 
 .player iframe{
-    margin-bottom: 3%;
+    margin-bottom: 0%;
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -42,60 +60,9 @@ img {
     background-color: #B4B4B4;
 }
 
-.secondbox div{
-}
-
-.calendar {
-    width: 200px;
-    height: 180px;
-    border-radius: 3px;
-    background-color: #B4B4B4;
-}
-
-.calendar iframe{
-    border-radius: 3px;
-    background-color: #B4B4B4;
-}
-
 .mixlr {
     border-radius: 3px;
     background-color: #C0C0C0;
-}
-
-.nob {
-    float: right;
-    width: 48%;
-    margin-right: 8px;
-    height: 180px;
-    border-radius: 3px;
-    background-color: #EEEEEE;
-    text-align: left;
-}
-
-.nob ul {
-    margin: 5px;
-    margin-top: 8px;
-    padding: 0px;
-}
-
-.nob img {
-  border-radius: 50%;
-  border: 3px solid #C0C0C0;
-  margin: 3%;
-  padding: 0px;
-  height: 60px;
-  width: 60px;
-    -webkit-box-shadow: 0 6px 6px -2px #777;
-       -moz-box-shadow: 0 6px 6px -2px #777;
-            box-shadow: 0 6px 6px -2px #777;
-}
-
-.nob li {
-    margin: 0px;
-    padding: 0px;
-    display: inline-block;
-    height: 33%;
-    width: 30%; 
 }
 
 .roundimg {
@@ -108,6 +75,24 @@ img {
             box-shadow: 0 6px 6px -2px #777;
 }
 
+.nextevent {
+    width: 96%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 3px;
+    background-color: #EEEEEE;
+    text-align: center;
+    -webkit-box-shadow: 0 6px 6px -2px #777;
+       -moz-box-shadow: 0 6px 6px -2px #777;
+            box-shadow: 0 6px 6px -2px #777;
+}
+
+.nextevent p{
+    font-size: small;
+    line-height: 1.5em;
+}
+
 div {
     line-height: 0;
 }
@@ -115,11 +100,6 @@ div {
 a {
     color: #227ce8;
     text-decoration: none;
-}
-
-header {
-    font-size: small;
-    text-align: right;
 }
 
 article p {
