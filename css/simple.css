@@ -27,6 +27,7 @@ body {
     max-width: 480px;
     background: url(../images/RadioPleaseBg.png) repeat center center fixed; 
     background-size: 128px auto;
+    -webkit-background-size: 128px auto;
     margin: auto auto auto auto;
     font-family: 'Overpass Mono', monospace;
 }
