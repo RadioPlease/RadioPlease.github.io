@@ -25,13 +25,8 @@ footer {
 
 body {
     max-width: 480px;
-    background: url(../images/RadioPleaseBg.png) repeat center center fixed; 
+    background: url(../images/RadioPleaseBg.png) repeat center center; 
     background-size: 128px 85px;
-    -webkit-background-size: 128px 85px;
-    -moz-background-size: 128px 85px;
-    -o-background-size: 128px 85px;
-    -ms-background-size: 128px 85px;
-
     margin: auto auto auto auto;
     font-family: 'Overpass Mono', monospace;
 }
