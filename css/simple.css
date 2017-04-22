@@ -28,6 +28,10 @@ body {
     background: url(../images/RadioPleaseBg.png) repeat center center fixed; 
     background-size: 128px auto;
     -webkit-background-size: 128px auto;
+    -moz-background-size: 128px auto;
+    -o-background-size: 128px auto;
+    -ms-background-size: 128px auto;
+
     margin: auto auto auto auto;
     font-family: 'Overpass Mono', monospace;
 }
