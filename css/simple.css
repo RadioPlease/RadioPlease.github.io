@@ -95,6 +95,7 @@ img {
 }
 
 .nextevent p{
+    font-size: small;
     line-height: 1.2em;
     margin: 0;
 }
@@ -113,6 +114,7 @@ article p {
 }
 
 p {
+    font-size: small;
     line-height: 1.2em;
 }
 
